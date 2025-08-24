@@ -4,7 +4,7 @@
     <feTurbulence type="fractalNoise" baseFrequency="2.3" numOctaves="14" seed="17" result="t2"/>
     <feBlend in="t1" in2="t2" mode="multiply"/>
     <feComponentTransfer>
-     <feFuncA type="linear" slope="3" intercept="-1" />
+     <feFuncA type="linear" slope="3" />
     </feComponentTransfer>
     <feColorMatrix type="saturate" values="0"/>
   </filter>
